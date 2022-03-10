@@ -1,0 +1,15 @@
+.root {
+  appearance: none;
+  width: 100%;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  border: 0;
+  text-align: start;
+  background-color: hsl(253 100% 96%);
+  cursor: pointer;
+  transition: background-color 200ms;
+}
+
+.root:hover {
+  background-color: hsl(253 100% calc(96% * 0.95));
+}
